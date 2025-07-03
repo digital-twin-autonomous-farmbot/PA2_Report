@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="batmobil">
+
+  <!-- Material Color -->
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <material name="yellow">
+    <color rgba="0.8 0.8 0.0 1.0"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+  
+  <!-- Base Link -->
+  <link name="base_link">
+  </link>
+
+  <!-- Chassis link-->
+  <link name="chassis">
+    <visual>
+      <origin xyz="0.35 0 0.01"/>
+      <geometry>
+        <box size="2.1 0.95 0.02"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0.35 0 0.01"/>
+      <geometry>
+        <box size="2.1 0.95 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint chassis-->
+  <joint name="chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+    <origin xyz="-1 0 0"/>
+  </joint>
+
+  <!-- Right Wheel Link -->
+  <link name="right_wheel">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.24" radius="0.3"/>
+      </geometry>
+      <material name="yellow" />
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.24" radius="0.3"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint between base_link and right wheel -->
+  <joint name="base_to_right_wheel" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="0 -0.475 -0.1" rpy="${pi/2} 0 0"/>
+    <axis xyz="0 0 -1"/>
+  </joint>
+
+  <!-- Left Wheel Link -->
+  <link name="left_wheel">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.24" radius="0.3"/>
+      </geometry>
+      <material name="yellow"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.24" radius="0.3"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint between base_link and left wheel -->
+  <joint name="base_to_left_wheel" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="0 0.475 -0.1" rpy="-${pi/2} 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!--Arm links-->
+  <!-- link front wheel arm left-->
+  <link name="wheel_arm_left">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.03 0.3"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.03 0.3"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint between base_link and front wheel arm left-->
+  <joint name="base_to_wheel_arm_left" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_arm_left"/>
+    <origin xyz="-1.5 -0.05 -0.15"/>
+  </joint>
+
+    <!-- link front wheel arm right-->
+  <link name="wheel_arm_right">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.03 0.3"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.03 0.3"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint between base_link and front wheel arm right-->
+  <joint name="base_to_wheel_arm_right" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_arm_right"/>
+    <origin xyz="-1.5 0.05 -0.15"/>
+  </joint>
+
+  <!-- front wheel -->
+  <link name="front_wheel">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.13"/>
+      </geometry>
+      <material name="yellow"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.13"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint between base_link and front wheel -->
+  <joint name="arm_to_front_wheel" type="continuous">
+    <!--parent link="wheel_arm_right"/-->
+    <parent link="wheel_arm_left"/>
+    <child link="front_wheel"/>
+    <origin xyz="0 0.05 -0.15" rpy="-${pi/2} 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+
+</robot>
+   

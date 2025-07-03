@@ -1,0 +1,78 @@
+\section{Change Operating System of Control Unit}
+
+\subsection{Objective}
+To simplify the work experience, a change in the main operating system on the control unit was performed. The original OS was Windows 10, and the target OS was Ubuntu 24.04 LTS.
+
+\subsection{Procedure}
+To perform the reboot of the OS, the following steps were taken:
+
+\subsection{Preparation: USB Stick and ISO Image}
+\begin{itemize}
+    \item USB Stick with 128GB.
+    \item Download the Ubuntu ISO: \href{https://ubuntu.com/download}{https://ubuntu.com/download}.
+\end{itemize}
+
+\subsection{Step 1: Create a Bootable USB Stick (For Windows Users)}
+Download and Start Rufus (on Windows)
+\begin{itemize}
+    \item Download Rufus: \href{https://rufus.ie/de/}{https://rufus.ie/de/}.
+\end{itemize}
+
+\subsubsection{Configure Rufus Settings}
+\begin{itemize}
+    \item \textbf{Device:} Select the USB stick in the “Device” dropdown menu.
+    \item \textbf{Boot Selection:} Click “SELECT” and choose the Ubuntu ISO file downloaded earlier.
+    \item \textbf{Partition Scheme:}
+    \begin{itemize}
+        \item Select \textbf{GPT} when using UEFI.
+        \item Select \textbf{MBR} when using an older BIOS or UEFI with CSM (Compatibility Support Module).
+    \end{itemize}
+    \item \textbf{Target System:}
+    \begin{itemize}
+        \item UEFI (non-CSM) for newer devices.
+        \item BIOS (or UEFI-CSM) for older devices.
+    \end{itemize}
+    \item \textbf{File System:} FAT32.
+\end{itemize}
+
+\subsubsection{Start the Process}
+\begin{itemize}
+    \item Wait for the process to complete.
+\end{itemize}
+
+\subsection{Step 2: Boot Ubuntu from the USB Stick}
+\begin{itemize}
+    \item Plug in the USB stick and restart your laptop.
+    \item Open the Boot Menu:
+    \begin{itemize}
+        \item Use one of the following keys: F12, F10, Esc, or Del.
+    \end{itemize}
+    \item Select the USB stick as the boot device to start Ubuntu.
+\end{itemize}
+
+\subsection{Step 3: Install Ubuntu}
+Start the Installation
+\begin{itemize}
+    \item Follow the installation guide.
+\end{itemize}
+
+Choose Installation Type
+\begin{itemize}
+    \item Example: \textbf{“Erase disk and install Ubuntu”} to remove Windows and use only Ubuntu.
+\end{itemize}
+
+Advanced Features (Optional)
+\begin{itemize}
+    \item Configure as needed.
+\end{itemize}
+
+Confirm Installation
+\begin{itemize}
+    \item Wait for the process to complete.
+\end{itemize}
+
+\subsection{Step 4: After Installation}
+\begin{itemize}
+    \item Remove the USB stick and restart.
+    \item Use Ubuntu.
+\end{itemize}

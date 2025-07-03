@@ -1,0 +1,14 @@
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Integration of Digital Twin}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Application of the Robot}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Literature Review}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Digital Twin}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Autonomous Robots}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Evolution from ROS to ROS2}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}ROS Distributions}{8}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Rviz and Gezebo}{9}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}RViz}{9}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Gazebo}{9}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Combination of RViz and Gazebo}{9}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}URDF and SDF}{10}{section.2.6}%

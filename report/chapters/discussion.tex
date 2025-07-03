@@ -1,0 +1,26 @@
+\chapter{Discussion}
+
+\section{Achievements}
+
+The primary objective of the project, to develop a DT for an autonomous robot, was achieved, albeit with adjustments to the complexity of the digital twin. Throughout the project, a functional URDF file could be developed along with the \verb|cmd_vel_to_motor_command| node. The URDF file could be spawned in the visualization tool rviz2 and the simulator gazebo.  
+%% CG: the launch file is needed for starting the sumulation and visualization tools ...
+A launch file could be developed which started the simulation and visualization tools, along with the necessary nodes to display and control the model. 
+Two motors are the actuators of this project. They are simulated by the differential driver plugin that provides basic movement functionality for the digital twin.  
+Further, the connection between the control unit and the edge device could be established and motor speed commands could be sent and received from the control unit to the edge device. The simulator gazebo and ros2 could communicate over the \verb|gz_ros_bright| enabling the \verb|cmd_vel_to_motor_command| node to send and receive messages from the \verb|cmd_vel_to_motor_command| topics. 
+
+\section{Functionality and Limitations}
+
+While the simulation replicated the robot's movement, \verb|real-time| synchronization was not achieved. Furthermore, the digital twin was a simplified representation of the robot, lacking the integration of sensors and environmental elements. The \verb|/cmd_vel| and \verb|motor_command| node facilitated the sending of a command to the motor controller but did not allow the motor controller to transmit feedback messages, such as actual speed or encoder data. In a sophisticated system, the motor controller should be able to send feedback messages. By doing so a node like the odometry node could compare the velocity and speed data of the real-world robot and the digital twin. This comparison is essential for real-time synchronization. However, due to the unsuccessful implementation of the Odom node, the model does not receive feedback messages from the real robot, limiting the ability to perform bidirectional communication and validation. Consequently, the digital twin serves more as a reflection of the robot's state rather than a true twin with bidirectional feedback. 
+The present model does not include any sensors as they increase the complexity of the robot significantly. This complexity is needed to meet the final objective but is beyond the scope of this project.
+
+
+\subsection{Challenges and Bottlenecks}
+
+The installation phase of this project provided a valuable learning experience as well as one of the main challenges. It involved exploring several methods for installing ROS2 to identify the most suitable approach for the project. This phase was particularly valuable, as it showed the benefits and limitations of different environments and installation techniques.
+Several environments were tested, including VirtualBox, WSL2, Docker, and Ubuntu 24.04 Linux. While these were the primary tools explored for this step, the testing process allowed for a deeper understanding of how each method operates and interacts with ROS2's ecosystem.
+This testing phase required significantly more time than initially anticipated, but it deepend the understanding of each environment.
+Additionally, the understanding of the complex ecosystem of ros2 required substantial effort, making it one of the most time\-consuming aspects of the project. One of the challenges regarding the understanding of the ros2 systematics was the installation of 
+%% CG: use compontents instead of tools. 
+%% A tool is something that you use alongside of ROS, a component is part of the ROS environment.
+additional components. 
+These installations often failed due to version conflicts within the components and packages used. This problem was primarily caused by the choice of a developer distribution instead of a LTS version. The developer distribution is better suited for projects requiring cutting\-edge packages or tools not yet part of the LTS version and for developers with substantial experience in the ROS 2 ecosystem. Neither of these conditions was applicable in this project, making the developer distribution an unsuitable choice. The choice of the developer distribution is likely to have contributed to the unsuccessful implementation of ros2\_control and ros2\_controller. However, this remains uncertain, as other factors, such as limited familiarity with the ros2 ecosystem or configuration complexities, may also have played a role. Further, the time point of the establishment of a connection between the control unit and the edge device was later achieved as anticipated. This caused the project to stagnate. 

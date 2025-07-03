@@ -1,0 +1,71 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Declaration of Authorship}{}{chapter*.1}%
+\contentsline {chapter}{Abstract}{}{chapter*.2}%
+\contentsline {chapter}{List of Figures}{}{chapter*.4}%
+\contentsline {chapter}{List of Abbreviations}{}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}%
+\contentsline {section}{\numberline {1.1}Project aim}{1}{section.8}%
+\contentsline {chapter}{\numberline {2}Literature Review}{2}{chapter.9}%
+\contentsline {section}{\numberline {2.1}Digital Twin}{2}{section.10}%
+\contentsline {section}{\numberline {2.2}Autonomous Robots}{3}{section.11}%
+\contentsline {section}{\numberline {2.3}What is ROS?}{3}{section.12}%
+\contentsline {subsection}{\numberline {2.3.1}What is a ROS distribution}{3}{subsection.13}%
+\contentsline {subsection}{\numberline {2.3.2}Nodes and Topics}{4}{subsection.17}%
+\contentsline {section}{\numberline {2.4}Rviz and Gezebo}{5}{section.19}%
+\contentsline {subsection}{\numberline {2.4.1}RViz}{5}{subsection.20}%
+\contentsline {subsection}{\numberline {2.4.2}Gazebo}{5}{subsection.21}%
+\contentsline {subsection}{\numberline {2.4.3}Combination of RViz and Gazebo}{6}{subsection.22}%
+\contentsline {section}{\numberline {2.5}URDF, Xacro and SDF}{6}{section.23}%
+\contentsline {chapter}{\numberline {3}Methods}{8}{chapter.28}%
+\contentsline {section}{\numberline {3.1}Project Pipline}{8}{section.29}%
+\contentsline {section}{\numberline {3.2}Robot parts}{9}{section.31}%
+\contentsline {section}{\numberline {3.3}System Setup of computer hardware and Software}{9}{section.37}%
+\contentsline {subsection}{\numberline {3.3.1}ROS2 installation}{9}{subsection.38}%
+\contentsline {subsection}{\numberline {3.3.2}Network configuration}{10}{subsection.39}%
+\contentsline {subsection}{\numberline {3.3.3}ROS2 Nodes}{10}{subsection.40}%
+\contentsline {section}{\numberline {3.4}Develop URDF File}{11}{section.41}%
+\contentsline {subsection}{\numberline {3.4.1}The Robot tag}{11}{subsection.42}%
+\contentsline {subsection}{\numberline {3.4.2}Link tags}{11}{subsection.58}%
+\contentsline {subsection}{\numberline {3.4.3}Joint tags}{12}{subsection.79}%
+\contentsline {section}{\numberline {3.5}Launch URDF in RViz}{12}{section.90}%
+\contentsline {section}{\numberline {3.6}Gazebo}{13}{section.120}%
+\contentsline {section}{\numberline {3.7}Control the robot}{13}{section.121}%
+\contentsline {chapter}{\numberline {4}Results}{15}{chapter.122}%
+\contentsline {section}{\numberline {4.1}Repositories for Code Management}{15}{section.123}%
+\contentsline {section}{\numberline {4.2}Build a workspace with colcon}{15}{section.124}%
+\contentsline {section}{\numberline {4.3}Build of prototype robot}{15}{section.125}%
+\contentsline {section}{\numberline {4.4}Installation hardware and software}{16}{section.127}%
+\contentsline {subsection}{\numberline {4.4.1}Network configuration}{17}{subsection.128}%
+\contentsline {section}{\numberline {4.5}Develop URDF file}{18}{section.129}%
+\contentsline {section}{\numberline {4.6}Visualization with Rviz2}{18}{section.130}%
+\contentsline {section}{\numberline {4.7}Gazebo}{21}{section.144}%
+\contentsline {subsection}{\numberline {4.7.1}Controlling the real robot}{21}{subsection.146}%
+\contentsline {section}{\numberline {4.8}Building the digital twin}{22}{section.147}%
+\contentsline {chapter}{\numberline {5}Discussion}{23}{chapter.148}%
+\contentsline {section}{\numberline {5.1}Achievements}{23}{section.149}%
+\contentsline {section}{\numberline {5.2}Functionality and Limitations}{23}{section.150}%
+\contentsline {subsection}{\numberline {5.2.1}Challenges and Bottlenecks}{24}{subsection.151}%
+\contentsline {chapter}{\numberline {6}Conclusion and outlook}{25}{chapter.152}%
+\contentsline {section}{\numberline {6.1}Conclusion}{25}{section.153}%
+\contentsline {section}{\numberline {6.2}Outlook}{25}{section.154}%
+\contentsline {chapter}{Bibliography}{26}{chapter*.155}%
+\contentsline {chapter}{\numberline {A}Installation guides}{}{appendix.156}%
+\contentsline {section}{\numberline {A.1}Change Operating System of Control Unit}{}{section.157}%
+\contentsline {subsection}{\numberline {A.1.1}Objective}{}{subsection.158}%
+\contentsline {subsection}{\numberline {A.1.2}Procedure}{}{subsection.159}%
+\contentsline {subsection}{\numberline {A.1.3}Preparation: USB Stick and ISO Image}{}{subsection.160}%
+\contentsline {subsection}{\numberline {A.1.4}Step 1: Create a Bootable USB Stick (For Windows Users)}{}{subsection.161}%
+\contentsline {subsubsection}{Configure Rufus Settings}{}{section*.162}%
+\contentsline {subsubsection}{Start the Process}{}{section*.163}%
+\contentsline {subsection}{\numberline {A.1.5}Step 2: Boot Ubuntu from the USB Stick}{}{subsection.164}%
+\contentsline {subsection}{\numberline {A.1.6}Step 3: Install Ubuntu}{}{subsection.165}%
+\contentsline {subsection}{\numberline {A.1.7}Step 4: After Installation}{}{subsection.166}%
+\contentsline {section}{\numberline {A.2}Install ROS2 on Ubuntu 24.04}{}{section.167}%
+\contentsline {subsection}{\numberline {A.2.1}Objective}{}{subsection.168}%
+\contentsline {subsection}{\numberline {A.2.2}Procedure}{}{subsection.169}%
+\contentsline {subsection}{\numberline {A.2.3}Testing}{}{subsection.182}%
+\contentsline {subsection}{\numberline {A.2.4}Additional}{}{subsection.186}%
+\contentsline {section}{\numberline {A.3}Install Gazebo Ionic}{}{section.187}%
+\contentsline {subsection}{\numberline {A.3.1}Objective}{}{subsection.188}%
+\contentsline {subsection}{\numberline {A.3.2}Procedure}{}{subsection.195}%
+\contentsline {chapter}{\numberline {B}Use of AI Tools in the Project}{}{appendix.198}%

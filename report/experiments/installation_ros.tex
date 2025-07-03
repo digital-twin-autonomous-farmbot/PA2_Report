@@ -1,0 +1,52 @@
+\section{Install ROS2 on Ubuntu 24.04}
+
+\subsection{Objective}
+The Objective of this experiment was to install ROS2 rolling, on the controll unit (Laptop HP with Ubuntu 24.04) and the Raspberry Pi (also with Ubuntu 24.04). 
+The main issue was to creat a connention between the machines. 
+
+\subsection{Procedure}
+The first step was to install ROS2 rolling desktop on both machines. For that the instructions from the ros2 website where used. 
+\url{https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debs.html}
+
+After the installation the source command for ROS2 setup file was added to the .bashrc file on both devices. 
+\begin{lstlisting}[language=bash]
+    #oben file via editor
+    nano ~/.bashrc
+    # add the command on the botton of the file
+    source /opt/ros/rolling/setup.bash
+\end{lstlisting}
+
+To creat a connention between the machines the following steps were follwed, on both machines.
+The ROS\_IP and the ROS\_DOMAIN\_ID where addet after the source command for the ros2 setup file, within the .bashrc file.
+The ROS IP adresse represented the IP adresse of the current machine, and the ROS DOMAIN ID was the same domain number for both machines. 
+
+
+\begin{lstlisting}[language=bash] 
+    export ROS_DOMAIN_ID=0
+    export ROS_IP=192.168.x.xx
+    \end{lstlisting}
+
+Then the .bashrc file was sourced on both machines with the following command:
+\begin{lstlisting}[language=bash] 
+    source ~/.bashrc
+    \end{lstlisting}
+
+
+    \subsection{Testing}
+To test if the two machines could communicate a demo node of ROS2 was used. 
+Therefore the two commands:
+\begin{lstlisting}
+    ros2 run demo_nodes_cpp talker
+    ros2 run demo_nodes_py listener
+\end{lstlisting}
+
+Where used, one machine was sending a messeage with the talker, and the other reseved the message with the listener. 
+
+\subsection{Additional}
+If the connection still can't be astablished the following steps can be tryed:
+
+1. Check if your SSH-Connection works correctly. 
+
+2. Check your firewall status 
+
+3. When using a virtuell machine, make sure your controll unit is connetet through etahl cable to the network, and not over wlan. 

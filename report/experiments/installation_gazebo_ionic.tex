@@ -1,0 +1,26 @@
+\section{Install Gazebo Ionic}
+
+\subsection{Objective}
+The inidial try to install gazebo was by using the defalt installation. Therefore the command:
+\begin{lstlisting}[language=bash]
+    sudo apt install ros-rolling-ros-gz 
+\end{lstlisting}
+
+was used. This installed a version von gazebo which was to old for the ubunt 24.04 operation system. 
+Due to this the error
+\begin{lstlisting}[language=bash]
+    [GUI] [Err] [Ogre2RenderEngine.cc:1301]  Unable to create the rendering window: 
+    OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context 
+    in GLXWindow::create at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 165)
+\end{lstlisting}
+    
+
+accuret. This leat to the interution of the simulation, before the simulation could be loaded the programm was killed. 
+
+\subsection{Procedure}
+As describet on the official website of gazebo, a specific version of gazebo had to be installed. For ROS2 Rolling the Gazebo Ionic was compartible. 
+After removing the humble version of gazebo, the ionic version was installed by following the instructions of the official website: 
+
+\begin{lstlisting}
+    https://gazebosim.org/docs/latest/install_ubuntu/
+\end{lstlisting}

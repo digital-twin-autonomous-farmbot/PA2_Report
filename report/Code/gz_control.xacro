@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    
+    <!-- ROS 2 Control Tag -->
+    <!--ros2_control name="batmobile_controller" type="controller_manager">
+        <hardware>
+            <Use the Gazebo System Plugin for ROS 2 Control >
+            <plugin>gz_ros2_control/GazeboSystem</plugin>
+        </hardware>
+        <joint name="left_wheel_joint">
+            <command_interface name="position"/>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="right_wheel_joint">
+            <command_interface name="position"/>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+    </ros2_control-->
+    
+    
+    <gazebo>
+        <plugin name="gz::sim::systems::DiffDrive" filename="gz-sim-diff-drive-system">
+
+            <!-- Wheel Information -->
+            <left_joint>left_wheel_joint</left_joint>
+            <right_joint>right_wheel_joint</right_joint>
+            <wheel_separation>0.95</wheel_separation>
+            <wheel_radius>0.3</wheel_radius>
+
+
+            <!-- Input -->
+            <topic>/cmd_vel</topic>
+            
+            <!-- Output -->
+            <frame_id>odom</frame_id>
+            <child_frame_id>base_link</child_frame_id>
+            <odom_topic>odom</odom_topic>
+            <odom_publish_frequency>50</odom_publish_frequency>
+
+            <!-- TF Publishing -->
+            <publish_tf>true</publish_tf>
+
+
+        </plugin>
+
+        <plugin filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher">
+            <topic>joint_states</topic>
+            <joint_name>left_wheel_joint</joint_name>
+            <joint_name>right_wheel_joint</joint_name>
+        </plugin>
+    </gazebo>
+
+
+</robot>

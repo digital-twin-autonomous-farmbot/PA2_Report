@@ -1,0 +1,1937 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{albergoUnderstandingXacroMisunderstandings2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d4ffc7343777781e302fd81a15b2016}{%
+           family={Albergo},
+           familyi={A\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ccc9e6d91f4827755ce59f440916191}{%
+           family={Rathi},
+           familyi={R\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32420caf486329329cb42d9f90877176}{%
+           family={Ore},
+           familyi={O\bibinitperiod},
+           given={John-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64c4caf0bdb031e5df401856093e12a0}
+      \strng{fullhash}{33b4b04bfdf995e6a38d53e74fed3adb}
+      \strng{bibnamehash}{33b4b04bfdf995e6a38d53e74fed3adb}
+      \strng{authorbibnamehash}{33b4b04bfdf995e6a38d53e74fed3adb}
+      \strng{authornamehash}{64c4caf0bdb031e5df401856093e12a0}
+      \strng{authorfullhash}{33b4b04bfdf995e6a38d53e74fed3adb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Xacro XML macro language can be used to augment the Universal Robot Description Format (URDF) and is part of a critical toolchain from geometric representations to simulation, visualization, and system execution. However, mem-bers of the robotics community, especially newcomers, struggle to troubleshoot and understand the interplay between systems and the Xacro preprocessing pipeline. To better understand how system developers struggle with Xacros, we manually examine 712 Xacro-related questions from the question and answer site answers.ros.org and find Xacro misunderstandings fit into eight key categories using a systematic, qualitative approach called Open Coding. By examining the 'tags' applied to questions, we further find that Xacro problems manifest in a befuddlingly broad set of contexts. This hinders onboarding and complicates system developers' understanding of representations and tools in the Robot Operating System. We aim to provide an empirical grounding that identifies and prioritizes impediments to users of open robotics systems, so that tool designers, teachers, and robotics practitioners can devise ways of improving robot software tooling and education.}
+      \field{journaltitle}{2022 {{International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})}
+      \field{month}{5}
+      \field{title}{Understanding {{Xacro Misunderstandings}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{6247\bibrangedash 6252}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICRA46639.2022.9812349
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\noiri\\Zotero\\storage\\DTGUH3TA\\Albergo et al. - 2022 - Understanding Xacro Misunderstandings.pdf;C\:\\Users\\noiri\\Zotero\\storage\\672PVYYA\\9812349.html
+      \endverb
+      \keyw{Education,Grounding,Meth-ods and Tools for Robot System Design,Operating systems,Pipelines,Software Tools for Robot Programming,Software-Hardware Integration for Robot Systems,Systematics,Visualization,XML}
+    \endentry
+    \entry{dirkUniversalBuildTool}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b7f2fe3ca05dd09ca562575166e593}{%
+           family={Dirk},
+           familyi={D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{fullhash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{bibnamehash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{authorbibnamehash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{authornamehash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{authorfullhash}{87b7f2fe3ca05dd09ca562575166e593}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Universal Build Tool}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\DY2IAG4C\build_tool.html
+      \endverb
+    \endentry
+    \entry{dockerRosOfficialImage}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={Docker},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Robot Operating System (ROS) is an open source project for building robot applications.}
+      \field{title}{Ros - {{Official Image}} {|} {{Docker Hub}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\Q25PV4QU\ros.html
+      \endverb
+    \endentry
+    \entry{fahimiAutonomousRobotsModeling2009}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5871f19d01be8ed85cce754d6335aa71}{%
+           family={Fahimi},
+           familyi={F\bibinitperiod},
+           given={Farbod},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{fullhash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{bibnamehash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{authorbibnamehash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{authornamehash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{authorfullhash}{5871f19d01be8ed85cce754d6335aa71}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-387-09537-0 978-0-387-09538-7}
+      \field{langid}{english}
+      \field{shorttitle}{Autonomous {{Robots}}}
+      \field{title}{Autonomous {{Robots}}: {{Modeling}}, {{Path Planning}}, and {{Control}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-0-387-09538-7
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\844WU3J3\Fahimi - 2009 - Autonomous Robots Modeling, Path Planning, and Control.pdf
+      \endverb
+    \endentry
+    \entry{indriAMRSystemAutonomous}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1e8d0836fa64a946464d8fc10193c40e}{%
+           family={Indri},
+           familyi={I\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{fullhash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{bibnamehash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{authorbibnamehash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{authornamehash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{authorfullhash}{1e8d0836fa64a946464d8fc10193c40e}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{{AMR}} System for Autonomous Indoor Navigation in Unknown Environments}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\7JA6HL33\Indri - AMR system for autonomous indoor navigation in unknown environments.pdf
+      \endverb
+    \endentry
+    \entry{kamRVizToolkitReal2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=775dd37325205ec910bac8229f5fc524}{%
+           family={Kam},
+           familyi={K\bibinitperiod},
+           given={Hyeong\bibnamedelima Ryeol},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e386b3b124b6e41022f0f7eb1b13c23}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sung-Ho},
+           giveni={S\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f475e55202d1c17f6ba09e35a18b8fe}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Taejung},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54b3ae98b5057719ebc7f524b22f4e73}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Chang-Hun},
+           giveni={C\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7257e9a6e763e420a032656eeaa55668}
+      \strng{fullhash}{87dcf45ab054aeea0cdc09807951829b}
+      \strng{bibnamehash}{87dcf45ab054aeea0cdc09807951829b}
+      \strng{authorbibnamehash}{87dcf45ab054aeea0cdc09807951829b}
+      \strng{authornamehash}{7257e9a6e763e420a032656eeaa55668}
+      \strng{authorfullhash}{87dcf45ab054aeea0cdc09807951829b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1018-4864, 1572-9451}
+      \field{journaltitle}{Telecommunication Systems}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shorttitle}{{{RViz}}}
+      \field{title}{{{RViz}}: A Toolkit for Real Domain Data Visualization}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{60}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{337\bibrangedash 345}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s11235-015-0034-5
+      \endverb
+    \endentry
+    \entry{macenskiRobotOperatingSystem2022}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7b84d10a03303cd00f198fefb38a5da3}{%
+           family={Macenski},
+           familyi={M\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d11ace6e44e4742ea1692d7ddf4819e}{%
+           family={Foote},
+           familyi={F\bibinitperiod},
+           given={Tully},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8ad4a5f43253f69552460c946e34e49}{%
+           family={Gerkey},
+           familyi={G\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e2c9f9d04cf548117105f50a9c8a7a1}{%
+           family={Lalancette},
+           familyi={L\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe838d86b89f8983167a3747e11998bb}{%
+           family={Woodall},
+           familyi={W\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4a195e02383364d4009f77ca22451e11}
+      \strng{fullhash}{c321d95ccac4f92536f0f1ed99f34d05}
+      \strng{bibnamehash}{c321d95ccac4f92536f0f1ed99f34d05}
+      \strng{authorbibnamehash}{c321d95ccac4f92536f0f1ed99f34d05}
+      \strng{authornamehash}{4a195e02383364d4009f77ca22451e11}
+      \strng{authorfullhash}{c321d95ccac4f92536f0f1ed99f34d05}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The next chapter of the robotics revolution is well underway with the deployment of robots for a broad range of commercial use cases. Even in a myriad of applications and environments, there exists a common vocabulary of components that robots share---the need for a modular, scalable, and reliable architecture; sensing; planning; mobility; and autonomy. The Robot Operating System (ROS) was an integral part of the last chapter, demonstrably expediting robotics research with freely available components and a modular framework. However, ROS 1 was not designed with many necessary production-grade features and algorithms. ROS 2 and its related projects have been redesigned from the ground up to meet the challenges set forth by modern robotic systems in new and exploratory domains at all scales. In this Review, we highlight the philosophical and architectural changes of ROS 2 powering this new chapter in the robotics revolution. We also show through case studies the influence ROS 2 and its adoption has had on accelerating real robot systems to reliable deployment in an assortment of challenging environments. , This Review describes ROS 2's design, features, and performance with four case studies on land, air, sea, and even space.}
+      \field{issn}{2470-9476}
+      \field{journaltitle}{Science Robotics}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{66}
+      \field{shorttitle}{Robot {{Operating System}} 2}
+      \field{title}{Robot {{Operating System}} 2: {{Design}}, Architecture, and Uses in the Wild}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{eabm6074}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/scirobotics.abm6074
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\LQI9DFWT\Macenski et al. - 2022 - Robot Operating System 2 Design, architecture, and uses in the wild.pdf
+      \endverb
+    \endentry
+    \entry{maruyamaExploringPerformanceROS22016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=487149c4acdcc78e78266e1eab430b76}{%
+           family={Maruyama},
+           familyi={M\bibinitperiod},
+           given={Yuya},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b57f784f0e4a8a70d297abe42c3d0c8}{%
+           family={Kato},
+           familyi={K\bibinitperiod},
+           given={Shinpei},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b1fa5daba830e935deda5dec51e2d9a}{%
+           family={Azumi},
+           familyi={A\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Pittsburgh Pennsylvania}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e82ab662fd9b72083e78ce8eecdf5395}
+      \strng{fullhash}{d1f665545fd4da18e0ded2f817fa3470}
+      \strng{bibnamehash}{d1f665545fd4da18e0ded2f817fa3470}
+      \strng{authorbibnamehash}{d1f665545fd4da18e0ded2f817fa3470}
+      \strng{authornamehash}{e82ab662fd9b72083e78ce8eecdf5395}
+      \strng{authorfullhash}{d1f665545fd4da18e0ded2f817fa3470}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4503-4485-2}
+      \field{journaltitle}{Proceedings of the 13th {{International Conference}} on {{Embedded Software}}}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Exploring the Performance of {{ROS2}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2968478.2968502
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\L6HDSX6E\Maruyama et al. - 2016 - Exploring the performance of ROS2.pdf
+      \endverb
+    \endentry
+    \entry{newansDescribingRobotsURDF}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de35eee473e80036546c7419256a78b1}{%
+           family={Newans},
+           familyi={N\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de35eee473e80036546c7419256a78b1}
+      \strng{fullhash}{de35eee473e80036546c7419256a78b1}
+      \strng{bibnamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authorbibnamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authornamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authorfullhash}{de35eee473e80036546c7419256a78b1}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How would you describe a robot? With URDF of course!}
+      \field{journaltitle}{Articulated Robotics}
+      \field{langid}{english}
+      \field{title}{Describing Robots with {{URDF}} {|} {{Articulated Robotics}}}
+      \field{type}{Tutorial}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\C5BAS53D\urdf.html
+      \endverb
+    \endentry
+    \entry{newansJoshnewansRos_arduino_bridgeROS}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de35eee473e80036546c7419256a78b1}{%
+           family={Newans},
+           familyi={N\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de35eee473e80036546c7419256a78b1}
+      \strng{fullhash}{de35eee473e80036546c7419256a78b1}
+      \strng{bibnamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authorbibnamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authornamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authorfullhash}{de35eee473e80036546c7419256a78b1}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Joshnewans/Ros\_arduino\_bridge: {{ROS}} + {{Arduino}} = {{Robot}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{riveraUnmannedGroundVehicle2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f50cbce3695248d31b37ee49b7a76d21}{%
+           family={Rivera},
+           familyi={R\bibinitperiod},
+           given={Zandra\bibnamedelima B.},
+           giveni={Z\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4141c77efccc6528fd4c879128631b4b}{%
+           family={De\bibnamedelima Simone},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Marco\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c6e1483443c0861134b11393c65ca07}{%
+           family={Guida},
+           familyi={G\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{316f55db8ae9218c85c613784a20ac61}
+      \strng{fullhash}{518244e90175ba31a28aafb375a0080e}
+      \strng{bibnamehash}{518244e90175ba31a28aafb375a0080e}
+      \strng{authorbibnamehash}{518244e90175ba31a28aafb375a0080e}
+      \strng{authornamehash}{316f55db8ae9218c85c613784a20ac61}
+      \strng{authorfullhash}{518244e90175ba31a28aafb375a0080e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The fusion of different technologies is the base of the fourth industrial revolution. Companies are encouraged to integrate new tools in their production processes in order to improve working conditions and increase productivity and production quality. The integration between information, communication technologies and industrial automation can create highly flexible production models for products and services that can be customized through real-time interactions between consumer, production and machinery throughout the production process. The future of production, therefore, depends on increasingly intelligent machinery through the use of digital systems. The key elements for future integrated devices are intelligent systems and machines, based on human--machine interaction and information sharing. To do so, the implementation of shared languages that allow different systems to dialogue in a simple way is necessary. In this perspective, the use of advanced prototyping tools like Open-Source programming systems, the development of more detailed multibody models through the use of CAD software and the use of self-learning techniques will allow for developing a new class of machines capable of revolutionizing our companies. The purpose of this paper is to present a waypoint navigation activity of a custom Wheeled Mobile Robot (WMR) in an available simulated 3D indoor environment by using the Gazebo simulator. Gazebo was developed in 2002 at the University of Southern California. The idea was to create a high-fidelity simulator that gave the possibility to simulate robots in outdoor environments under various conditions. In particular, we wanted to test the high-performance physics Open Dynamics Engine (ODE) and the sensors feature present in Gazebo for prototype development activities. This choice was made for the possibility of emulating not only the system under analysis, but also the world in which the robot will operate. Furthermore, the integration tools available with Solidworks and Matlab-Simulink, well known commercial platforms of modelling and robotics control respectively, are also explored.}
+      \field{issn}{2075-1702}
+      \field{journaltitle}{Machines}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Unmanned {{Ground Vehicle Modelling}} in {{Gazebo}}/{{ROS-Based Environments}}}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{42}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/machines7020042
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\JK4BAJF6\Rivera et al. - 2019 - Unmanned Ground Vehicle Modelling in GazeboROS-Based Environments.pdf
+      \endverb
+      \keyw{gazebo,Matlab,multibody dynamics,robotics,wheeled mobile robot}
+    \endentry
+    \entry{openroboticsGazebo}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About -- {{Gazebo}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\YSQZ8DMU\about.html
+      \endverb
+    \endentry
+    \entry{openroboticsDistributionsROS2a}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Distributions --- {{ROS}} 2 {{Documentation}}: {{Rolling}} Documentation}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\7F8A2VEL\Releases.html
+      \endverb
+    \endentry
+    \entry{openroboticsDistributionsROS2}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Distributions --- {{ROS}} 2 {{Documentation}}: {{Rolling}} Documentation}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\F5KQZ89P\Releases.html
+      \endverb
+    \endentry
+    \entry{openroboticsJazzyJaliscoJazzy}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jazzy {{Jalisco}} (Jazzy) --- {{ROS}} 2 {{Documentation}}: {{Jazzy}} Documentation}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\54MDS7UC\Release-Jazzy-Jalisco.html
+      \endverb
+    \endentry
+    \entry{openroboticsROSHome}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{5}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{ROS}}: {{Home}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\MF7NDGAH\www.ros.org.html
+      \endverb
+    \endentry
+    \entry{openroboticsUrdfROSWiki}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{6}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{6}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Urdf - {{ROS Wiki}}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\3SCMW53K\urdf.html
+      \endverb
+    \endentry
+    \entry{openroboticsUsingColconBuild}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{7}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Colcon to Build Packages --- {{ROS}} 2 {{Documentation}}: {{Rolling}} Documentation}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\V7JWMRIA\Colcon-Tutorial.html
+      \endverb
+    \endentry
+    \entry{roboticsunveiledROS2Part122024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2f8f081ca78c9d67977a1de997236424}{%
+           family={RoboticsUnveiled},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{fullhash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{bibnamehash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{authorbibnamehash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{authornamehash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{authorfullhash}{2f8f081ca78c9d67977a1de997236424}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this post we present an overview on the concept of ROS2 Digital Twins.}
+      \field{chapter}{Ros2}
+      \field{journaltitle}{ROS2 Part 12 -- ROS2 Digital Twin}
+      \field{langid}{american}
+      \field{month}{5}
+      \field{title}{{{ROS2 Part}} 12 - {{ROS2 Digital Twin}}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\X6QWJYAU\ros2-ros2-digital-twin.html
+      \endverb
+    \endentry
+    \entry{staczekDigitalTwinApproach2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=919f6d48a9a978006feb55545f8925a5}{%
+           family={Stączek},
+           familyi={S\bibinitperiod},
+           given={Pawe{ł}},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=342144cfdfcde1175721a0d47e5f0abc}{%
+           family={Pizoń},
+           familyi={P\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6258baec6a4aaa823ffbbf077dde75b}{%
+           family={Danilczuk},
+           familyi={D\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45336d5e97dd88d387b06be5264eb86b}{%
+           family={Gola},
+           familyi={G\bibinitperiod},
+           given={Arkadiusz},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c45ee52d2dc573fadfb43b640f512697}
+      \strng{fullhash}{f0d6b523ed498e1106026d7f7efacc32}
+      \strng{bibnamehash}{f0d6b523ed498e1106026d7f7efacc32}
+      \strng{authorbibnamehash}{f0d6b523ed498e1106026d7f7efacc32}
+      \strng{authornamehash}{c45ee52d2dc573fadfb43b640f512697}
+      \strng{authorfullhash}{f0d6b523ed498e1106026d7f7efacc32}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The contemporary market creates a demand for continuous improvement of production, service, and management processes. Increasingly advanced IT technologies help designers to meet this demand, as they allow them to abandon classic design and design-testing methods in favor of techniques that do not require the use of real-life systems and thus significantly reduce the costs and time of implementing new solutions. This is particularly important when re-engineering production and logistics processes in existing production companies, where physical testing is often infeasible as it would require suspension of production for the testing period. In this article, we showed how the Digital Twin technology can be used to test the operating environment of an autonomous mobile robot (AMR). In particular, the concept of the Digital Twin was used to assess the correctness of the design assumptions adopted for the early phase of the implementation of an AMR vehicle in a company's production hall. This was done by testing and improving the case of a selected intralogistics task in a potentially ``problematic'' part of the shop floor with narrow communication routes. Three test scenarios were analyzed. The results confirmed that the use of digital twins could accelerate the implementation of automated intralogistics systems and reduce its costs.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{23}
+      \field{title}{A {{Digital Twin Approach}} for the {{Improvement}} of an {{Autonomous Mobile Robots}} ({{AMR}}'s) {{Operating Environment}}---{{A Case Study}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{7830}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s21237830
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\44QC3UP2\Stączek et al. - 2021 - A Digital Twin Approach for the Improvement of an Autonomous Mobile Robots (AMR’s) Operating Environ.pdf
+      \endverb
+    \endentry
+    \entry{takayaSimulationEnvironmentMobile2016}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=364940f92adb7868e723b51604214519}{%
+           family={Takaya},
+           familyi={T\bibinitperiod},
+           given={Kenta},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53966568b1e66be0ff711e8db293c2ab}{%
+           family={Asai},
+           familyi={A\bibinitperiod},
+           given={Toshinori},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5edb3a5949ed74b88b2e632ac4340512}{%
+           family={Kroumov},
+           familyi={K\bibinitperiod},
+           given={Valeri},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74f85865cbca948c8fb8bebf7db23ecb}{%
+           family={Smarandache},
+           familyi={S\bibinitperiod},
+           given={Florentin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sinaia}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9cbec21b17b8d16c0e66c925c5172878}
+      \strng{fullhash}{88b5850f3a4f80f115f5bd1684ad207a}
+      \strng{bibnamehash}{88b5850f3a4f80f115f5bd1684ad207a}
+      \strng{authorbibnamehash}{88b5850f3a4f80f115f5bd1684ad207a}
+      \strng{authornamehash}{9cbec21b17b8d16c0e66c925c5172878}
+      \strng{authorfullhash}{88b5850f3a4f80f115f5bd1684ad207a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-5090-2720-0}
+      \field{journaltitle}{2016 20th {{International Conference}} on {{System Theory}}, {{Control}} and {{Computing}} ({{ICSTCC}})}
+      \field{month}{10}
+      \field{title}{Simulation Environment for Mobile Robots Testing Using {{ROS}} and {{Gazebo}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{96\bibrangedash 101}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICSTCC.2016.7790647
+      \endverb
+    \endentry
+    \entry{UrdfXMLROS}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Urdf/{{XML}} - {{ROS Wiki}}}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\TWLJPF5H\XML.html
+      \endverb
+    \endentry
+    \entry{voasDraftConsiderationsDigital2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d65addc96221f6110b064a4d37ef454a}{%
+           family={Voas},
+           familyi={V\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{fullhash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{bibnamehash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{authorbibnamehash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{authornamehash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{authorfullhash}{d65addc96221f6110b064a4d37ef454a}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{({{Draft}}) {{Considerations}} for {{Digital Twins Standards}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.6028/NIST.IR.8356-draft
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\NJE52RHU\Voas - 2021 - (Draft) Considerations for Digital Twins Standards.pdf
+      \endverb
+    \endentry
+    \entry{wahdeINTRODUCTIONAUTONOMOUSROBOTS2016}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b91876104949e1afc5896f0558069d5a}{%
+           family={Wahde},
+           familyi={W\bibinitperiod},
+           given={Mattias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b91876104949e1afc5896f0558069d5a}
+      \strng{fullhash}{b91876104949e1afc5896f0558069d5a}
+      \strng{bibnamehash}{b91876104949e1afc5896f0558069d5a}
+      \strng{authorbibnamehash}{b91876104949e1afc5896f0558069d5a}
+      \strng{authornamehash}{b91876104949e1afc5896f0558069d5a}
+      \strng{authorfullhash}{b91876104949e1afc5896f0558069d5a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{{INTRODUCTION TO AUTONOMOUS ROBOTS}}}
+      \field{year}{2016}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\Q5J7WWVZ\Wahde - INTRODUCTION TO AUTONOMOUS ROBOTS.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{albergoUnderstandingXacroMisunderstandings2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d4ffc7343777781e302fd81a15b2016}{%
+           family={Albergo},
+           familyi={A\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ccc9e6d91f4827755ce59f440916191}{%
+           family={Rathi},
+           familyi={R\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32420caf486329329cb42d9f90877176}{%
+           family={Ore},
+           familyi={O\bibinitperiod},
+           given={John-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64c4caf0bdb031e5df401856093e12a0}
+      \strng{fullhash}{33b4b04bfdf995e6a38d53e74fed3adb}
+      \strng{bibnamehash}{33b4b04bfdf995e6a38d53e74fed3adb}
+      \strng{authorbibnamehash}{33b4b04bfdf995e6a38d53e74fed3adb}
+      \strng{authornamehash}{64c4caf0bdb031e5df401856093e12a0}
+      \strng{authorfullhash}{33b4b04bfdf995e6a38d53e74fed3adb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Xacro XML macro language can be used to augment the Universal Robot Description Format (URDF) and is part of a critical toolchain from geometric representations to simulation, visualization, and system execution. However, mem-bers of the robotics community, especially newcomers, struggle to troubleshoot and understand the interplay between systems and the Xacro preprocessing pipeline. To better understand how system developers struggle with Xacros, we manually examine 712 Xacro-related questions from the question and answer site answers.ros.org and find Xacro misunderstandings fit into eight key categories using a systematic, qualitative approach called Open Coding. By examining the 'tags' applied to questions, we further find that Xacro problems manifest in a befuddlingly broad set of contexts. This hinders onboarding and complicates system developers' understanding of representations and tools in the Robot Operating System. We aim to provide an empirical grounding that identifies and prioritizes impediments to users of open robotics systems, so that tool designers, teachers, and robotics practitioners can devise ways of improving robot software tooling and education.}
+      \field{journaltitle}{2022 {{International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})}
+      \field{month}{5}
+      \field{title}{Understanding {{Xacro Misunderstandings}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{6247\bibrangedash 6252}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICRA46639.2022.9812349
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\noiri\\Zotero\\storage\\DTGUH3TA\\Albergo et al. - 2022 - Understanding Xacro Misunderstandings.pdf;C\:\\Users\\noiri\\Zotero\\storage\\672PVYYA\\9812349.html
+      \endverb
+      \keyw{Education,Grounding,Meth-ods and Tools for Robot System Design,Operating systems,Pipelines,Software Tools for Robot Programming,Software-Hardware Integration for Robot Systems,Systematics,Visualization,XML}
+    \endentry
+    \entry{dirkUniversalBuildTool}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87b7f2fe3ca05dd09ca562575166e593}{%
+           family={Dirk},
+           familyi={D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{fullhash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{bibnamehash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{authorbibnamehash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{authornamehash}{87b7f2fe3ca05dd09ca562575166e593}
+      \strng{authorfullhash}{87b7f2fe3ca05dd09ca562575166e593}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Universal Build Tool}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\DY2IAG4C\build_tool.html
+      \endverb
+    \endentry
+    \entry{dockerRosOfficialImage}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={Docker},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Robot Operating System (ROS) is an open source project for building robot applications.}
+      \field{title}{Ros - {{Official Image}} {|} {{Docker Hub}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\Q25PV4QU\ros.html
+      \endverb
+    \endentry
+    \entry{fahimiAutonomousRobotsModeling2009}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5871f19d01be8ed85cce754d6335aa71}{%
+           family={Fahimi},
+           familyi={F\bibinitperiod},
+           given={Farbod},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{fullhash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{bibnamehash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{authorbibnamehash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{authornamehash}{5871f19d01be8ed85cce754d6335aa71}
+      \strng{authorfullhash}{5871f19d01be8ed85cce754d6335aa71}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-387-09537-0 978-0-387-09538-7}
+      \field{langid}{english}
+      \field{shorttitle}{Autonomous {{Robots}}}
+      \field{title}{Autonomous {{Robots}}: {{Modeling}}, {{Path Planning}}, and {{Control}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-0-387-09538-7
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\844WU3J3\Fahimi - 2009 - Autonomous Robots Modeling, Path Planning, and Control.pdf
+      \endverb
+    \endentry
+    \entry{indriAMRSystemAutonomous}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1e8d0836fa64a946464d8fc10193c40e}{%
+           family={Indri},
+           familyi={I\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{fullhash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{bibnamehash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{authorbibnamehash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{authornamehash}{1e8d0836fa64a946464d8fc10193c40e}
+      \strng{authorfullhash}{1e8d0836fa64a946464d8fc10193c40e}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{{AMR}} System for Autonomous Indoor Navigation in Unknown Environments}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\7JA6HL33\Indri - AMR system for autonomous indoor navigation in unknown environments.pdf
+      \endverb
+    \endentry
+    \entry{kamRVizToolkitReal2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=775dd37325205ec910bac8229f5fc524}{%
+           family={Kam},
+           familyi={K\bibinitperiod},
+           given={Hyeong\bibnamedelima Ryeol},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e386b3b124b6e41022f0f7eb1b13c23}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sung-Ho},
+           giveni={S\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f475e55202d1c17f6ba09e35a18b8fe}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Taejung},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54b3ae98b5057719ebc7f524b22f4e73}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Chang-Hun},
+           giveni={C\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7257e9a6e763e420a032656eeaa55668}
+      \strng{fullhash}{87dcf45ab054aeea0cdc09807951829b}
+      \strng{bibnamehash}{87dcf45ab054aeea0cdc09807951829b}
+      \strng{authorbibnamehash}{87dcf45ab054aeea0cdc09807951829b}
+      \strng{authornamehash}{7257e9a6e763e420a032656eeaa55668}
+      \strng{authorfullhash}{87dcf45ab054aeea0cdc09807951829b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1018-4864, 1572-9451}
+      \field{journaltitle}{Telecommunication Systems}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shorttitle}{{{RViz}}}
+      \field{title}{{{RViz}}: A Toolkit for Real Domain Data Visualization}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{60}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{337\bibrangedash 345}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s11235-015-0034-5
+      \endverb
+    \endentry
+    \entry{macenskiRobotOperatingSystem2022}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7b84d10a03303cd00f198fefb38a5da3}{%
+           family={Macenski},
+           familyi={M\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d11ace6e44e4742ea1692d7ddf4819e}{%
+           family={Foote},
+           familyi={F\bibinitperiod},
+           given={Tully},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8ad4a5f43253f69552460c946e34e49}{%
+           family={Gerkey},
+           familyi={G\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e2c9f9d04cf548117105f50a9c8a7a1}{%
+           family={Lalancette},
+           familyi={L\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe838d86b89f8983167a3747e11998bb}{%
+           family={Woodall},
+           familyi={W\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4a195e02383364d4009f77ca22451e11}
+      \strng{fullhash}{c321d95ccac4f92536f0f1ed99f34d05}
+      \strng{bibnamehash}{c321d95ccac4f92536f0f1ed99f34d05}
+      \strng{authorbibnamehash}{c321d95ccac4f92536f0f1ed99f34d05}
+      \strng{authornamehash}{4a195e02383364d4009f77ca22451e11}
+      \strng{authorfullhash}{c321d95ccac4f92536f0f1ed99f34d05}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The next chapter of the robotics revolution is well underway with the deployment of robots for a broad range of commercial use cases. Even in a myriad of applications and environments, there exists a common vocabulary of components that robots share---the need for a modular, scalable, and reliable architecture; sensing; planning; mobility; and autonomy. The Robot Operating System (ROS) was an integral part of the last chapter, demonstrably expediting robotics research with freely available components and a modular framework. However, ROS 1 was not designed with many necessary production-grade features and algorithms. ROS 2 and its related projects have been redesigned from the ground up to meet the challenges set forth by modern robotic systems in new and exploratory domains at all scales. In this Review, we highlight the philosophical and architectural changes of ROS 2 powering this new chapter in the robotics revolution. We also show through case studies the influence ROS 2 and its adoption has had on accelerating real robot systems to reliable deployment in an assortment of challenging environments. , This Review describes ROS 2's design, features, and performance with four case studies on land, air, sea, and even space.}
+      \field{issn}{2470-9476}
+      \field{journaltitle}{Science Robotics}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{66}
+      \field{shorttitle}{Robot {{Operating System}} 2}
+      \field{title}{Robot {{Operating System}} 2: {{Design}}, Architecture, and Uses in the Wild}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{eabm6074}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/scirobotics.abm6074
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\LQI9DFWT\Macenski et al. - 2022 - Robot Operating System 2 Design, architecture, and uses in the wild.pdf
+      \endverb
+    \endentry
+    \entry{maruyamaExploringPerformanceROS22016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=487149c4acdcc78e78266e1eab430b76}{%
+           family={Maruyama},
+           familyi={M\bibinitperiod},
+           given={Yuya},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b57f784f0e4a8a70d297abe42c3d0c8}{%
+           family={Kato},
+           familyi={K\bibinitperiod},
+           given={Shinpei},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b1fa5daba830e935deda5dec51e2d9a}{%
+           family={Azumi},
+           familyi={A\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Pittsburgh Pennsylvania}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e82ab662fd9b72083e78ce8eecdf5395}
+      \strng{fullhash}{d1f665545fd4da18e0ded2f817fa3470}
+      \strng{bibnamehash}{d1f665545fd4da18e0ded2f817fa3470}
+      \strng{authorbibnamehash}{d1f665545fd4da18e0ded2f817fa3470}
+      \strng{authornamehash}{e82ab662fd9b72083e78ce8eecdf5395}
+      \strng{authorfullhash}{d1f665545fd4da18e0ded2f817fa3470}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4503-4485-2}
+      \field{journaltitle}{Proceedings of the 13th {{International Conference}} on {{Embedded Software}}}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Exploring the Performance of {{ROS2}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2968478.2968502
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\L6HDSX6E\Maruyama et al. - 2016 - Exploring the performance of ROS2.pdf
+      \endverb
+    \endentry
+    \entry{newansDescribingRobotsURDF}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de35eee473e80036546c7419256a78b1}{%
+           family={Newans},
+           familyi={N\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de35eee473e80036546c7419256a78b1}
+      \strng{fullhash}{de35eee473e80036546c7419256a78b1}
+      \strng{bibnamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authorbibnamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authornamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authorfullhash}{de35eee473e80036546c7419256a78b1}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How would you describe a robot? With URDF of course!}
+      \field{journaltitle}{Articulated Robotics}
+      \field{langid}{english}
+      \field{title}{Describing Robots with {{URDF}} {|} {{Articulated Robotics}}}
+      \field{type}{Tutorial}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\C5BAS53D\urdf.html
+      \endverb
+    \endentry
+    \entry{newansJoshnewansRos_arduino_bridgeROS}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de35eee473e80036546c7419256a78b1}{%
+           family={Newans},
+           familyi={N\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de35eee473e80036546c7419256a78b1}
+      \strng{fullhash}{de35eee473e80036546c7419256a78b1}
+      \strng{bibnamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authorbibnamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authornamehash}{de35eee473e80036546c7419256a78b1}
+      \strng{authorfullhash}{de35eee473e80036546c7419256a78b1}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Joshnewans/Ros\_arduino\_bridge: {{ROS}} + {{Arduino}} = {{Robot}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{riveraUnmannedGroundVehicle2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f50cbce3695248d31b37ee49b7a76d21}{%
+           family={Rivera},
+           familyi={R\bibinitperiod},
+           given={Zandra\bibnamedelima B.},
+           giveni={Z\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4141c77efccc6528fd4c879128631b4b}{%
+           family={De\bibnamedelima Simone},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Marco\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c6e1483443c0861134b11393c65ca07}{%
+           family={Guida},
+           familyi={G\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{316f55db8ae9218c85c613784a20ac61}
+      \strng{fullhash}{518244e90175ba31a28aafb375a0080e}
+      \strng{bibnamehash}{518244e90175ba31a28aafb375a0080e}
+      \strng{authorbibnamehash}{518244e90175ba31a28aafb375a0080e}
+      \strng{authornamehash}{316f55db8ae9218c85c613784a20ac61}
+      \strng{authorfullhash}{518244e90175ba31a28aafb375a0080e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The fusion of different technologies is the base of the fourth industrial revolution. Companies are encouraged to integrate new tools in their production processes in order to improve working conditions and increase productivity and production quality. The integration between information, communication technologies and industrial automation can create highly flexible production models for products and services that can be customized through real-time interactions between consumer, production and machinery throughout the production process. The future of production, therefore, depends on increasingly intelligent machinery through the use of digital systems. The key elements for future integrated devices are intelligent systems and machines, based on human--machine interaction and information sharing. To do so, the implementation of shared languages that allow different systems to dialogue in a simple way is necessary. In this perspective, the use of advanced prototyping tools like Open-Source programming systems, the development of more detailed multibody models through the use of CAD software and the use of self-learning techniques will allow for developing a new class of machines capable of revolutionizing our companies. The purpose of this paper is to present a waypoint navigation activity of a custom Wheeled Mobile Robot (WMR) in an available simulated 3D indoor environment by using the Gazebo simulator. Gazebo was developed in 2002 at the University of Southern California. The idea was to create a high-fidelity simulator that gave the possibility to simulate robots in outdoor environments under various conditions. In particular, we wanted to test the high-performance physics Open Dynamics Engine (ODE) and the sensors feature present in Gazebo for prototype development activities. This choice was made for the possibility of emulating not only the system under analysis, but also the world in which the robot will operate. Furthermore, the integration tools available with Solidworks and Matlab-Simulink, well known commercial platforms of modelling and robotics control respectively, are also explored.}
+      \field{issn}{2075-1702}
+      \field{journaltitle}{Machines}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Unmanned {{Ground Vehicle Modelling}} in {{Gazebo}}/{{ROS-Based Environments}}}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{42}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/machines7020042
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\JK4BAJF6\Rivera et al. - 2019 - Unmanned Ground Vehicle Modelling in GazeboROS-Based Environments.pdf
+      \endverb
+      \keyw{gazebo,Matlab,multibody dynamics,robotics,wheeled mobile robot}
+    \endentry
+    \entry{openroboticsGazebo}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About -- {{Gazebo}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\YSQZ8DMU\about.html
+      \endverb
+    \endentry
+    \entry{openroboticsDistributionsROS2a}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Distributions --- {{ROS}} 2 {{Documentation}}: {{Rolling}} Documentation}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\7F8A2VEL\Releases.html
+      \endverb
+    \endentry
+    \entry{openroboticsDistributionsROS2}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Distributions --- {{ROS}} 2 {{Documentation}}: {{Rolling}} Documentation}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\F5KQZ89P\Releases.html
+      \endverb
+    \endentry
+    \entry{openroboticsJazzyJaliscoJazzy}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jazzy {{Jalisco}} (Jazzy) --- {{ROS}} 2 {{Documentation}}: {{Jazzy}} Documentation}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\54MDS7UC\Release-Jazzy-Jalisco.html
+      \endverb
+    \endentry
+    \entry{openroboticsROSHome}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{5}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{ROS}}: {{Home}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\MF7NDGAH\www.ros.org.html
+      \endverb
+    \endentry
+    \entry{openroboticsUrdfROSWiki}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{6}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{6}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Urdf - {{ROS Wiki}}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\3SCMW53K\urdf.html
+      \endverb
+    \endentry
+    \entry{openroboticsUsingColconBuild}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da3f2037cc0123c47ff0d1c42d82001f}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{fullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{bibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorbibnamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authornamehash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \strng{authorfullhash}{da3f2037cc0123c47ff0d1c42d82001f}
+      \field{extraname}{7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradate}{7}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Colcon to Build Packages --- {{ROS}} 2 {{Documentation}}: {{Rolling}} Documentation}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\V7JWMRIA\Colcon-Tutorial.html
+      \endverb
+    \endentry
+    \entry{roboticsunveiledROS2Part122024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2f8f081ca78c9d67977a1de997236424}{%
+           family={RoboticsUnveiled},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{fullhash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{bibnamehash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{authorbibnamehash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{authornamehash}{2f8f081ca78c9d67977a1de997236424}
+      \strng{authorfullhash}{2f8f081ca78c9d67977a1de997236424}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this post we present an overview on the concept of ROS2 Digital Twins.}
+      \field{chapter}{Ros2}
+      \field{journaltitle}{ROS2 Part 12 -- ROS2 Digital Twin}
+      \field{langid}{american}
+      \field{month}{5}
+      \field{title}{{{ROS2 Part}} 12 - {{ROS2 Digital Twin}}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\X6QWJYAU\ros2-ros2-digital-twin.html
+      \endverb
+    \endentry
+    \entry{staczekDigitalTwinApproach2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=919f6d48a9a978006feb55545f8925a5}{%
+           family={Stączek},
+           familyi={S\bibinitperiod},
+           given={Pawe{ł}},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=342144cfdfcde1175721a0d47e5f0abc}{%
+           family={Pizoń},
+           familyi={P\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6258baec6a4aaa823ffbbf077dde75b}{%
+           family={Danilczuk},
+           familyi={D\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45336d5e97dd88d387b06be5264eb86b}{%
+           family={Gola},
+           familyi={G\bibinitperiod},
+           given={Arkadiusz},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c45ee52d2dc573fadfb43b640f512697}
+      \strng{fullhash}{f0d6b523ed498e1106026d7f7efacc32}
+      \strng{bibnamehash}{f0d6b523ed498e1106026d7f7efacc32}
+      \strng{authorbibnamehash}{f0d6b523ed498e1106026d7f7efacc32}
+      \strng{authornamehash}{c45ee52d2dc573fadfb43b640f512697}
+      \strng{authorfullhash}{f0d6b523ed498e1106026d7f7efacc32}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The contemporary market creates a demand for continuous improvement of production, service, and management processes. Increasingly advanced IT technologies help designers to meet this demand, as they allow them to abandon classic design and design-testing methods in favor of techniques that do not require the use of real-life systems and thus significantly reduce the costs and time of implementing new solutions. This is particularly important when re-engineering production and logistics processes in existing production companies, where physical testing is often infeasible as it would require suspension of production for the testing period. In this article, we showed how the Digital Twin technology can be used to test the operating environment of an autonomous mobile robot (AMR). In particular, the concept of the Digital Twin was used to assess the correctness of the design assumptions adopted for the early phase of the implementation of an AMR vehicle in a company's production hall. This was done by testing and improving the case of a selected intralogistics task in a potentially ``problematic'' part of the shop floor with narrow communication routes. Three test scenarios were analyzed. The results confirmed that the use of digital twins could accelerate the implementation of automated intralogistics systems and reduce its costs.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{23}
+      \field{title}{A {{Digital Twin Approach}} for the {{Improvement}} of an {{Autonomous Mobile Robots}} ({{AMR}}'s) {{Operating Environment}}---{{A Case Study}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{7830}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s21237830
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\44QC3UP2\Stączek et al. - 2021 - A Digital Twin Approach for the Improvement of an Autonomous Mobile Robots (AMR’s) Operating Environ.pdf
+      \endverb
+    \endentry
+    \entry{takayaSimulationEnvironmentMobile2016}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=364940f92adb7868e723b51604214519}{%
+           family={Takaya},
+           familyi={T\bibinitperiod},
+           given={Kenta},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53966568b1e66be0ff711e8db293c2ab}{%
+           family={Asai},
+           familyi={A\bibinitperiod},
+           given={Toshinori},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5edb3a5949ed74b88b2e632ac4340512}{%
+           family={Kroumov},
+           familyi={K\bibinitperiod},
+           given={Valeri},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74f85865cbca948c8fb8bebf7db23ecb}{%
+           family={Smarandache},
+           familyi={S\bibinitperiod},
+           given={Florentin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sinaia}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9cbec21b17b8d16c0e66c925c5172878}
+      \strng{fullhash}{88b5850f3a4f80f115f5bd1684ad207a}
+      \strng{bibnamehash}{88b5850f3a4f80f115f5bd1684ad207a}
+      \strng{authorbibnamehash}{88b5850f3a4f80f115f5bd1684ad207a}
+      \strng{authornamehash}{9cbec21b17b8d16c0e66c925c5172878}
+      \strng{authorfullhash}{88b5850f3a4f80f115f5bd1684ad207a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-5090-2720-0}
+      \field{journaltitle}{2016 20th {{International Conference}} on {{System Theory}}, {{Control}} and {{Computing}} ({{ICSTCC}})}
+      \field{month}{10}
+      \field{title}{Simulation Environment for Mobile Robots Testing Using {{ROS}} and {{Gazebo}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{96\bibrangedash 101}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICSTCC.2016.7790647
+      \endverb
+    \endentry
+    \entry{UrdfXMLROS}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Urdf/{{XML}} - {{ROS Wiki}}}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\TWLJPF5H\XML.html
+      \endverb
+    \endentry
+    \entry{voasDraftConsiderationsDigital2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d65addc96221f6110b064a4d37ef454a}{%
+           family={Voas},
+           familyi={V\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{fullhash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{bibnamehash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{authorbibnamehash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{authornamehash}{d65addc96221f6110b064a4d37ef454a}
+      \strng{authorfullhash}{d65addc96221f6110b064a4d37ef454a}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{({{Draft}}) {{Considerations}} for {{Digital Twins Standards}}}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.6028/NIST.IR.8356-draft
+      \endverb
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\NJE52RHU\Voas - 2021 - (Draft) Considerations for Digital Twins Standards.pdf
+      \endverb
+    \endentry
+    \entry{wahdeINTRODUCTIONAUTONOMOUSROBOTS2016}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b91876104949e1afc5896f0558069d5a}{%
+           family={Wahde},
+           familyi={W\bibinitperiod},
+           given={Mattias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b91876104949e1afc5896f0558069d5a}
+      \strng{fullhash}{b91876104949e1afc5896f0558069d5a}
+      \strng{bibnamehash}{b91876104949e1afc5896f0558069d5a}
+      \strng{authorbibnamehash}{b91876104949e1afc5896f0558069d5a}
+      \strng{authornamehash}{b91876104949e1afc5896f0558069d5a}
+      \strng{authorfullhash}{b91876104949e1afc5896f0558069d5a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{{INTRODUCTION TO AUTONOMOUS ROBOTS}}}
+      \field{year}{2016}
+      \verb{file}
+      \verb C:\Users\noiri\Zotero\storage\Q5J7WWVZ\Wahde - INTRODUCTION TO AUTONOMOUS ROBOTS.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{CreatingLaunchFile}
+  \missing{frohlichRos2\_control\_demosRos2_control\_demo\_descriptionDiffbot}
+\endrefsection
+\endinput
+

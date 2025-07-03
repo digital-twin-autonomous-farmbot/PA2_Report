@@ -1,0 +1,19 @@
+ <!-- Right Wheel Link -->
+  <link name="right_wheel">
+
+  <!-- The visual properties of the link -->
+    <visual>
+      <geometry>
+        <cylinder length="0.24" radius="0.3"/>
+      </geometry>
+      <material name="yellow" />
+    </visual>
+
+  <!-- The collision properties of a link-->
+    <collision>
+      <geometry>
+        <cylinder length="0.24" radius="0.3"/>
+      </geometry>
+    </collision>
+    
+  </link>

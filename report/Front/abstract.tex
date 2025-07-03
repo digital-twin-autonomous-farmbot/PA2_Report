@@ -1,0 +1,9 @@
+% !TEX root = ../main.tex
+
+%----------------------------------------------------------------------------------------
+% ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+This project presents the development of a simplified digital twin of an autonomous robot. The three\-wheeled robot was recreated as a digital twin using ROS2, an advanced open-source robotics software. The project was developed in the ros2 rolling distribution. Throughout the project, the robot's description could be successfully captured in a developed URDF file, which used the marco language xacro. The URDF file could be spawned successfully in the visualization tool rviz2 as well as the simulator gazebo ionic. For the control system within the gazebo environment, the differential diver plugin was implemented. The two repositories ros\_arduino\_bridge and serial\_motor\_demo were used as a starting point for the robot control system. These repositories contained a network of ros2 nodes, which communicated motor speed over the motor\_command topic. To tailor the given nodes to the requirements of the project an additional node was developed, which communicated with the /cmd\_vel and motor\_command topics. The main goal of the project could be met, by simply finding some phases of the project. Instead of a sophisticated control system like the ros2\_conrtol and ros2\_controller packages, the native communication system relying on nodes and topics was used in the project. Further, the connection between the gazebo simulator and the rviz2 visualizer and feedback messages from the motor controller to the rviz2 visualizer could not be established. However, the synchronization of the DT and the real\-world robot movement could be established.
+\end{abstract}

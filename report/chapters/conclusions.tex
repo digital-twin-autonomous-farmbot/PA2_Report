@@ -1,0 +1,14 @@
+\chapter{Conclusion and outlook}
+
+\section{Conclusion}
+
+Overall, the project achieved its fundamental objective but in a simplified form. The digital twin successfully mirrors the robot's behaviour to a degree but lacks real-time synchronization, environmental representation, and sensor integration. Within the project, a primary attempt was made to use the ros2 ecosystem to generate a digital twin. A deeper understanding of the ros2 applications could be established up to an extent, where a functional ros2 node could be developed and the native ros2 communication system could be used to control a real-world robot and a gazebo model. The choice of distribution and installation challenges significantly impacted the project's progress and complexity, but provided a deeper understanding of the configuration within the ros2 ecosystem.
+
+\section{Outlook}
+
+%% CG: maybe use "cornerstone" instead of "foundation"
+
+%% CG: if it is your bachelor thesis, you should use the personal pronoun "my" instead of "a".
+
+This project served as the cornerstone for a bachelor thesis, which aims to develop an autonomous robot tailored for the envisioned application of maintaining green rooftop ecosystems with photovoltaic panels installed.
+Key advancements to be addressed based on the project presented, include the integration of feedback mechanisms from the motor controller. This addition would enable data-driven comparisons between the digital model and the physical robot, enhancing precision in control and orientation. Furthermore, the simulation environment should be refined to accurately represent the rooftop green spaces where the robot will operate. For this detailed simulation, an alternative to Gazebo could be a more efficient solution since the gazebo simulator's complexity rises with the complexity of the model. Implementing sensors such as cameras, infrared systems, or lasers would be critical to ensure the robot can effectively perform its tasks. The implementation of neural networks and advanced algorithms would be essential for the development of a robust object detection and decision-making system. To streamline the development process and enhance deployment flexibility, using Docker containers for the ROS2 system would ensure portability, consistency, and simplified setup while enabling efficient cross-device deployment and resource isolation. Finally, the robot design of the presented project would not meet the functional requirements for maintaining rooftop ecosystems. Therefore, a new robot design is be needed that would include a new URDF file for the digital twin.

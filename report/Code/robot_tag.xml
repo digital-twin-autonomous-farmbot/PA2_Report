@@ -1,0 +1,14 @@
+<!-- XML declaration -->
+<?xml version="1.0"?>
+<!-- Robot tag-->
+<robot name="batmobil">
+
+   <!--robot links and joints and more-->
+   <link>
+   </link>
+
+   <joint>
+   </joint>
+
+</robot>
+

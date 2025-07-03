@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="batmobil">
+
+    <!-- Arguments -->
+    <xacro:arg name="sim_mode" default="true" />
+    
+    <!-- Includes -->
+    <xacro:include filename="core_model.xacro" />
+    <xacro:include filename="materials.xacro" />
+    <xacro:include filename="gz_control.xacro" />
+    
+
+    <!-- Macro Invocation -->
+    <xacro:robot />
+    
+</robot>

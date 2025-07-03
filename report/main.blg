@@ -1,0 +1,35 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[94] biber-MSWIN64:340> INFO - === 
+[137] Biber.pm:419> INFO - Reading 'main.bcf'
+[242] Biber.pm:979> INFO - Found 27 citekeys in bib section 0
+[258] Biber.pm:4419> INFO - Processing section 0
+[268] Biber.pm:4610> INFO - Looking for bibtex file 'Bibliothek.bib' for section 0
+[340] bibtex.pm:1713> INFO - LaTeX decoding ...
+[388] bibtex.pm:1519> INFO - Found BibTeX data source 'Bibliothek.bib'
+[409] Biber.pm:4610> INFO - Looking for bibtex file 'Farmbot.bib' for section 0
+[489] bibtex.pm:1713> INFO - LaTeX decoding ...
+[557] bibtex.pm:1519> INFO - Found BibTeX data source 'Farmbot.bib'
+[698] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[698] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[698] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[698] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[730] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[730] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[730] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[730] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[749] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[772] bbl.pm:763> INFO - Output to main.bbl
+[773] Biber.pm:131> WARN - Duplicate entry key: 'damianUsingFullyConvolutional2019' in file 'Farmbot.bib', skipping ...
+[773] Biber.pm:131> WARN - Duplicate entry key: 'dejanHowControlStepper2015' in file 'Farmbot.bib', skipping ...
+[773] Biber.pm:131> WARN - Duplicate entry key: 'InstallingGazeboROS' in file 'Farmbot.bib', skipping ...
+[773] Biber.pm:131> WARN - Duplicate entry key: 'InstallingGazeboROSa' in file 'Farmbot.bib', skipping ...
+[773] Biber.pm:131> WARN - Duplicate entry key: 'latschOptimisationHotwaterApplication2014' in file 'Farmbot.bib', skipping ...
+[773] Biber.pm:131> WARN - Duplicate entry key: 'leDigitalTwinApproach2024' in file 'Farmbot.bib', skipping ...
+[773] Biber.pm:131> WARN - Duplicate entry key: 'WhatCloudComputing2023' in file 'Farmbot.bib', skipping ...
+[773] Biber.pm:131> WARN - Duplicate entry key: 'WhatEdgeComputing' in file 'Farmbot.bib', skipping ...
+[773] Biber.pm:131> WARN - ISBN '978-0-387-09537-0 978-0-387-09538-7' in entry 'fahimiAutonomousRobotsModeling2009' is invalid - run biber with '--validate_datamodel' for details.
+[773] Biber.pm:131> WARN - I didn't find a database entry for 'Interaction nodes and topics' (section 0)
+[773] Biber.pm:131> WARN - I didn't find a database entry for 'CreatingLaunchFile' (section 0)
+[773] Biber.pm:131> WARN - I didn't find a database entry for 'frohlichROS2\_control\_demosROS2_control\_demo\_descriptionDiffbot' (section 0)
+[773] Biber.pm:133> INFO - WARNINGS: 12
